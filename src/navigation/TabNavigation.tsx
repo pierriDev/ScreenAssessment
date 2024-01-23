@@ -14,7 +14,7 @@ const TabNavigation = () => {
         <NavigationContainer>
             <Tab.Navigator screenOptions={{ 
                 headerShown: false,
-                tabBarIcon: ({ focused, color, size }) => {
+                tabBarIcon: ({ focused }) => {
                     let iconName;
         
                       iconName = focused ? siteDataIcon: siteDataIconUnfilled;
